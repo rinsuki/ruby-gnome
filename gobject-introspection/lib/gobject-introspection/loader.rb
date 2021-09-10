@@ -769,7 +769,6 @@ module GObjectIntrospection
         end
         @virtual_function_implementor.implement(implementor_class.gtype,
                                                 name)
-        true
       end
     end
   end
